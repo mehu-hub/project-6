@@ -5,10 +5,4 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-/* Navbar Styles */
-.nav-items{
-    gap: 25px;
-    display: flex;
-    list-style: none;
-}
+ 
