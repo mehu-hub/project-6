@@ -1,3 +1,3 @@
-Biker Zone Simple Landing Page
-Responsive for Pc & Mobile Device
+Biker Zone Simple Landing Page <br>
+Responsive for Pc & Mobile Device <br>
 When I was complete learn Responsive using Bootstrap, I create this landing page.
