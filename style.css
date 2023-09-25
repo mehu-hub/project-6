@@ -5,6 +5,10 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.fa-bars{
+    font-size: 25px;
+    color: aliceblue;
+}
 .banner{  
     background:linear-gradient(0deg, rgba(8, 8, 8, 0.5), rgba(31, 31, 31, 0.8)), url(/images/others/Bike\ Bg.png);
     background-size:cover;
@@ -17,6 +21,25 @@
     margin-top: 50px;
     font-size: 60px;
 }
+.footer{
+    height: 280px;
+    background: black;
+}
+.down{
+    margin-left: 32px;
+}
+.footer-list{
+    cursor: pointer;
+    list-style: none;
+    gap: 24px;
+}
+.foot-get img{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 135px;
+}
 
 @media screen and (max-width: 576px) {
     .banner{
@@ -24,6 +47,16 @@
     }
     .heading{
         font-size: 45px;
+    } 
+    .down{
+        margin-top: 20px;
+    }
+    .down p{ 
+        margin-bottom: 0;
+    }
+    hr{
+        width: 100%;
+         
     }
 
 }

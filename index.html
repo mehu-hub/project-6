@@ -12,18 +12,19 @@
     <script src="https://kit.fontawesome.com/ce81d1d063.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container-lg">
-
+<body>
     <!-- Header -->
     <header>
         <div class="banner">
             <nav class="navbar py-5 navbar-expand-lg container-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand fs-3 text-white fw-bold" href="#">Go Ride'z</a>
+                    <a class="navbar-brand fs-2 text-white fw-bold" href="#">Go Ride'z</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="">
+                            <i class="fa-solid fa-bars"></i>
+                        </span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
@@ -57,13 +58,13 @@
         </div>
     </header>
     <!-- Main -->
-    <main>
+    <main class="container-lg">
         <!-- Fetured bike section  -->
         <section class="py-5">
             <div class="text-start mt-5 text-md-center">
                 <h1 class="fw-bold">Fetured Bikes In This Year</h1>
                 <p class="text-danger">Best Bike Collection</p>
-                <hr class="w-25 mx-auto border-danger">
+                <hr class="w-50 mx-md-auto border-danger">
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 mt-4">
                 <div class="col">
@@ -278,9 +279,31 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
-        
-
+    <footer class="footer mt-5 d-flex">
+        <div class="container-lg text-white  d-flex align-items-center justify-content-around">
+            <div>
+                <div class="d-md-flex fw-bold text-danger gap-md-4 down">
+                    <p>Download Now</p>
+                    <p>License</p>
+                </div>
+                <div class="">
+                    <ul class="d-md-flex footer-list">
+                        <li>About</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>Careers</li>
+                        <li>Helps</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <p class=" mx-4">© All right reserve > <a href="https://github.com/mehu-hub/" target="_blank" class="fw-semibold" style="cursor: pointer;">NoobDev</a></p>
+            </div>
+            <div class="foot-get">
+                <p>Get the app</p>
+                <img src="/images/others/android.png" alt="">
+                <img src="/images/others/ios.png" alt="">
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
