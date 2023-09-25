@@ -5,4 +5,25 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
- 
+.banner{  
+    background:linear-gradient(0deg, rgba(8, 8, 8, 0.5), rgba(31, 31, 31, 0.8)), url(/images/others/Bike\ Bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 754px;
+    width: 1440px;
+    margin: 0 auto;
+}
+.heading{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 576px) {
+    .banner{
+        width: 100%;
+    }
+    .heading{
+        font-size: 45px;
+    }
+
+}
